@@ -106,6 +106,7 @@ header {
 
 .content .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 70px;
 }
@@ -120,7 +121,7 @@ header {
 }
 
 .content .container .image-box {
-    border: 5px solid #000;
+    border: 5px solid #3882f6;
     border-radius: 10px;
     aspect-ratio: 1 / 1;
 }
