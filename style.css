@@ -10,7 +10,6 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     padding: 0 128px 128px 128px;
-
     gap: 64px;
 }
 
@@ -89,10 +88,10 @@ header {
 /* Mid section */
 
 .content {
-    padding: 64px 64px;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding: 64px 64px;
 }
 
 .content h2 {
@@ -134,4 +133,83 @@ header {
 
 .image-box img {
     
+}
+
+/* Quote */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote h2 {
+    font-size: 36px;
+    font-style:italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.quote p {
+    text-align: end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Sign up section */
+
+.sign-up-section {
+    padding: 64px 128px;
+}
+
+.sign-up-section .box {
+    background-color: #3882F6;
+    padding: 64px 128px;
+    border-radius: 10px;
+    min-width: 50px;
+
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.sign-up-section .box .text {
+    flex: 1;
+    min-width: 250px;
+}
+
+.sign-up-section .box * {
+    margin: 0px;
+}
+
+.sign-up-section .box .text h3 {
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.sign-up-section .box .text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-section .box button {
+    border-radius: 10px;
+    padding: 4px 32px;
+    font-size: 20px;
+    width: 160px;
+    height: 50px;
+}
+
+/* Footer */
+footer {
+    background-color: #1F2937;
+    padding: 16px 128px;
+}
+
+footer p {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
 }
